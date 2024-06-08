@@ -1,6 +1,6 @@
 import type { I18nMessages, Lang } from "~/i18n";
-import { en } from "~/locale/en";
-import { ja } from "~/locale/ja";
+import { en } from "~/locales/en";
+import { ja } from "~/locales/ja";
 
 export default defineI18nConfig(() => ({
   legacy: false,
