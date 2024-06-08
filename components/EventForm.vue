@@ -1,7 +1,9 @@
 <template>
   <div>
-    <p>{{ $t("titleMax", { max: 4 }) }}</p>
+    <p>{{ myTrans("titleMax") }}</p>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const { myTrans } = useI18nHelpers();
+</script>
