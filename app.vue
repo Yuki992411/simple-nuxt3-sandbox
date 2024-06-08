@@ -3,7 +3,7 @@
     <button @click="setLocale('en')">en</button>
     <button @click="setLocale('ja')">ja</button>
     <p>{{ locale }}</p>
-    <p>{{ $t("titleMax", { max: 4 }) }}</p>
+    <EventForm />
   </div>
 </template>
 
