@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-links",
+    "@storybook/addon-coverage",
   ],
   framework: {
     name: "@storybook-vue/nuxt",
