@@ -14,5 +14,14 @@
     "nuxt": "^3.13.0",
     "vue": "^3.4.38",
     "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@storybook-vue/nuxt": "^8.2.0",
+    "@storybook/addon-essentials": "^8.2.9",
+    "@storybook/addon-interactions": "^8.2.9",
+    "@storybook/addon-links": "^8.2.9",
+    "@storybook/test": "^8.2.9",
+    "@storybook/vue3": "^8.2.9",
+    "storybook": "^8.2.9"
   }
 }
